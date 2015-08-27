@@ -1,6 +1,6 @@
 {
-  "name": "share",
-  "version": "0.7.40",
+  "name": "sssi-share",
+  "version": "0.7.41",
   "description": "A database for concurrent document editing",
   "keywords": [
     "operational transformation",
@@ -17,7 +17,7 @@
   "dependencies": {
     "async": "^0.9.0",
     "hat": "^0.0.3",
-    "livedb": "^0.5.12",
+    "sssi-livedb": "^0.5.12",
     "ot-json0": "^1.0.0",
     "ot-text": "^1.0.0",
     "ot-text-tp2": "^1.0.0"
@@ -56,7 +56,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/josephg/sharejs.git"
+    "url": "https://github.com/DetweilerRyan/ShareJS.git"
   },
   "bugs": {
     "url": "https://github.com/josephg/sharejs/issues"

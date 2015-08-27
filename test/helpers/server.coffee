@@ -10,7 +10,7 @@ createInstance = ->
   redisClient1 = redis.createClient(6379, 'localhost');
   redisClient2 = redis.createClient(6379, 'localhost');
 
-  livedbLib = require 'livedb'
+  livedbLib = require 'sssi-livedb'
   memorydb  = livedbLib.memory()
   driver = livedbLib.redisDriver(memorydb, redisClient1, redisClient2);
   livedb = livedbLib.client(db: memorydb, driver:driver)
